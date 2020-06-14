@@ -1,6 +1,6 @@
 <template>
   <view class="app-list-container">
-    <view class="app-item" wx:for="{{listData}}" wx:key="index">{{item}}</view>
+    <view class="app-item" wx:for="{{listData}}" wx:key="index" bindtap="handleTap1(1)">{{item}}</view>
   </view>
 </template>
 
@@ -14,8 +14,10 @@
       width 148px
       height 140px
       margin 0 13px
-      background-color #f0f0f0
+      background-color #f6f6f6
       border-radius 10px
+      &:active
+        background-color #f0f0f0
 </style>
 
 <script type="application/json">

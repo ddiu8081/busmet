@@ -15,6 +15,8 @@
     height 90px
     padding 0 30px
     border-radius 10px
+    &:active
+      background-color #f0f0f0
 </style>
 
 <script type="application/json">
