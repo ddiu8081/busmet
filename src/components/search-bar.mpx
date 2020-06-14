@@ -1,0 +1,24 @@
+<template>
+  <view class="search-bar-container">
+    <view>搜索公交线路</view>
+  </view>
+</template>
+
+<script lang="ts" src="./search-bar.ts"></script>
+
+<style lang="stylus">
+  .search-bar-container
+    display flex
+    align-items center
+    background-color #f6f6f6
+    color #c0c3cc
+    height 90px
+    padding 0 30px
+    border-radius 10px
+</style>
+
+<script type="application/json">
+  {
+    "component": true
+  }
+</script>

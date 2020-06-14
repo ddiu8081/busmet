@@ -1,0 +1,31 @@
+<template>
+  <view class="panel">
+    <search-bar></search-bar>
+    <app-list></app-list>
+  </view>
+</template>
+
+<script lang="ts" src="./panel.ts"></script>
+
+<style lang="stylus">
+  .panel
+    position absolute
+    bottom 0
+    left 0
+    right 0
+    background-color #ffffff
+    height 300px
+    padding 40px
+    border-radius 24px 24px 0 0
+    box-shadow 0 -3px 16px rgba(0, 0, 0, 0.08)
+</style>
+
+<script type="application/json">
+  {
+    "component": true,
+    "usingComponents": {
+      "search-bar": "./search-bar",
+      "app-list": "./app-list"
+    }
+  }
+</script>

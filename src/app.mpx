@@ -1,0 +1,19 @@
+<script lang="ts" src="./app.ts"></script>
+
+<style>
+
+</style>
+
+<script name="json">
+  module.exports = {
+    pages: [
+      './pages/index'
+    ],
+    window: {
+      navigationStyle: 'custom',
+      navigationBarBackgroundColor: '#ffffff',
+      navigationBarTextStyle: 'black',
+      backgroundTextStyle: 'light'
+    }
+  }
+</script>

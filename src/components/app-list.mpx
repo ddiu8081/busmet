@@ -1,0 +1,25 @@
+<template>
+  <view class="app-list-container">
+    <view class="app-item" wx:for="{{listData}}" wx:key="index">{{item}}</view>
+  </view>
+</template>
+
+<script lang="ts" src="./app-list.ts"></script>
+
+<style lang="stylus">
+  .app-list-container
+    margin 40px -13px
+    .app-item
+      display inline-block
+      width 148px
+      height 140px
+      margin 0 13px
+      background-color #f0f0f0
+      border-radius 10px
+</style>
+
+<script type="application/json">
+  {
+    "component": true
+  }
+</script>

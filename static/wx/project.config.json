@@ -1,0 +1,16 @@
+{
+  "compileType": "miniprogram",
+  "setting": {
+    "newFeature": true,
+    "urlCheck": true,
+    "es6": false,
+    "postcss": true,
+    "minified": false,
+    "checkSiteMap": true,
+    "autoAudits": false
+  },
+  "appid": "wx455fea0cca9d1889",
+  "projectname": "busmet",
+  "description": "A bus info app",
+  "condition": {}
+}
