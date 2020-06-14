@@ -1,5 +1,5 @@
 <template>
-  <map class="map"></map>
+  <map class="map" location="{{location}}"></map>
   <panel class="panel"></panel>
 </template>
 
